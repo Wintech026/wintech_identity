@@ -437,7 +437,7 @@ const Produits = () => {
             <div className="mesh">
               <div className="mesh__blob mesh__blob--green" style={{ width: '440px', height: '440px', top: '-160px', right: '-80px', opacity: '.3' }}></div>
             </div>
-            <div style={{ position: 'relative', zIndex: 1, display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '32px', flexWrap: 'wrap' }}>
+            {/* <div style={{ position: 'relative', zIndex: 1, display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '32px', flexWrap: 'wrap' }}>
               <div>
                 <span className="eyebrow eyebrow--on-dark">Essayez nos produits</span>
                 <h2 className="h-1" style={{ color: '#fff', marginTop: '14px' }}>Voyons lequel correspond<br />à votre activité.</h2>
@@ -448,7 +448,7 @@ const Produits = () => {
                   <path d="M5 12h14M13 6l6 6-6 6" />
                 </svg>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

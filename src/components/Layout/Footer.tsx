@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/Logo technologique WinTech avec slogan numérique.png';
+import logo from '../../assets/logo.png';
 
 const Footer: React.FC = () => (
   <footer className="wt-footer">

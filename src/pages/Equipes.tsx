@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-
+import flora from '../assets/flora.jpeg';
+import esther from '../assets/esther.jpeg';
 // --- Types ---
 interface Membre {
   nom: string;
@@ -166,7 +167,7 @@ const Equipes: React.FC = () => {
         { nom: "Obed", role: "Lead Developer & DevOps", isLead: true, photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop" },
         { nom: "Thibaut", role: "Développeur Backend", photo: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800&auto=format&fit=crop" },
         { nom: "Vincentia", role: "Développeuse Backend", photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop" },
-        { nom: "Esther", role: "Développeuse Frontend", photo: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=800&auto=format&fit=crop" },
+        { nom: "Esther", role: "Développeuse Frontend", photo:esther },
         { nom: "Lydie", role: "Développeuse Frontend", photo: "https://images.unsplash.com/photo-1628891676724-194781703d0a?q=80&w=800&auto=format&fit=crop" }
       ]
     },
@@ -175,7 +176,7 @@ const Equipes: React.FC = () => {
       description: "04 membres · marque & relations",
       membres: [
         { nom: "Tania", role: "Responsable Communication", isLead: true, photo: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=800&auto=format&fit=crop" },
-        { nom: "Flora", role: "Communication", photo: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop" },
+        { nom: "Flora", role: "Communication", photo:flora },
         { nom: "Exaucée", role: "Communication", photo: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=800&auto=format&fit=crop" },
         { nom: "Lexni", role: "Relations & Partenariats", photo: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop" }
       ]

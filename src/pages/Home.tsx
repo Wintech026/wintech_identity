@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import agences   from '../assets/agences.png';
+import winqueue   from '../assets/winqueue.jpeg';
+import winstock   from '../assets/winstock.jpeg';
 import imgAppDev from '../assets/app-development.png';
 import imgDev    from '../assets/development.png';
 import imgWeb    from '../assets/web.png';
@@ -232,12 +233,12 @@ export async function launchApp() {
                 path: '/produits#winresto',
               },
               {
-                tag: 'Rendez-vous', img: agences, alt: 'WinQueue',
+                tag: 'Rendez-vous', img: winqueue, alt: 'WinQueue',
                 title: 'WinQueue', desc: 'Réservation en ligne et rappels automatiques anti no-show pour salons, cliniques et pros sur RDV.',
                 path: '/produits#winqueue',
               },
               {
-                tag: 'Commerce', img: agences, alt: 'WinStock',
+                tag: 'Commerce', img: winstock, alt: 'WinStock',
                 title: 'WinStock', desc: 'Gestion de stock et commandes fournisseurs. Suivez vos quantités en temps réel, zéro rupture.',
                 path: '/produits#winstock',
               },

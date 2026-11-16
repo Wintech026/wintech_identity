@@ -20,10 +20,27 @@ const Contact: React.FC = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    alert("Message envoyé ! L'équipe WinTech vous recontactera.");
-  };
+  
+const handleSubmit = (e: React.FormEvent) => {
+  e.preventDefault();
+
+  const message = `
+*NOUVELLE DEMANDE WINTECH*
+
+👤 Nom : ${formData.nom}
+📧 Email : ${formData.email}
+📱 WhatsApp : ${formData.telephone}
+💼 Besoin : ${formData.projet}
+📝 Message : ${formData.message}
+  `;
+
+  const numeroWhatsApp = "2290154753071";
+
+  const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(message)}`;
+
+  window.open(url, "_blank");
+};
+
 
   // --- Styles de base pour l'animation d'entrée ---
   const getAnimatedStyle = (delay: string) => ({
@@ -147,7 +164,16 @@ const Contact: React.FC = () => {
 
               <div>
                 <label style={{ display: 'block', fontSize: '0.85rem', color: '#666', marginBottom: '8px', fontWeight: 600 }}>Message</label>
-                <textarea name="message" required rows={4} placeholder="Parlez-nous de vos objectifs..." style={{ ...inputStyle, resize: 'none' }} onFocus={handleFocus} onBlur={handleBlur} />
+               <textarea
+                name="message"
+                required
+                rows={4}
+                placeholder="Parlez-nous de vos objectifs..."
+                style={{ ...inputStyle, resize: 'none' }}
+                onChange={handleChange}
+                onFocus={handleFocus}
+                onBlur={handleBlur}
+              />
               </div>
 
               <button 
@@ -204,12 +230,12 @@ const Contact: React.FC = () => {
                     Téléphone : +229 01 54 75 30 71
                   </a>
                   <a 
-                    href="mailto:contact@wintech.company" 
+                    href="mailto:contact@winrestoapp.com" 
                     style={{ color: '#0A1628', textDecoration: 'none', fontSize: '1.05rem', fontWeight: 600, transition: 'color 0.2s' }}
                     onMouseEnter={(e) => e.currentTarget.style.color = '#00C896'}
                     onMouseLeave={(e) => e.currentTarget.style.color = '#0A1628'}
                   >
-                    Email : contact@wintech.company
+                    Email : contact@winrestoapp.com
                   </a>
                 </div>
               </div>
