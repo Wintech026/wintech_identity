@@ -207,7 +207,7 @@ const handleSubmit = (e: React.FormEvent) => {
               >
                 <h4 style={{ fontWeight: 800, color: '#00C896', marginBottom: '10px' }}>Siège WinTech</h4>
                 <p style={{ lineHeight: 1.6, color: '#555', margin: 0 }}>
-                  Zogbadjè, Abomey-Calavi<br />Atlantique, Bénin
+                  Gbégamey,Cotonou<br />Littoral, Bénin
                 </p>
               </div>
             </div>

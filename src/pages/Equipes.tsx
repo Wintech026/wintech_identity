@@ -167,10 +167,10 @@ const Equipes: React.FC = () => {
       titre: "Développement",
       description: "03 membres · produit & ingénierie",
       membres: [
-        { nom: "Obed", role: "Lead Developer & DevOps", isLead: true, photo: obed },
-        { nom: "Thibaut", role: "Développeur Backend", photo: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800&auto=format&fit=crop" },
+        { nom: "ADIDO Obed", role: "Lead Developer & DevOps", isLead: true, photo: obed },
+        { nom: "PLOMEY Thibaut", role: "Développeur Backend", photo: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800&auto=format&fit=crop" },
         // { nom: "Vincentia", role: "Développeuse Backend", photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop" },
-        { nom: "Esther", role: "Développeuse Frontend", photo:esther },
+        { nom: "ADEBI Esther", role: "Développeuse Frontend", photo:esther },
         // { nom: "Lydie", role: "Développeuse Frontend", photo: "https://images.unsplash.com/photo-1628891676724-194781703d0a?q=80&w=800&auto=format&fit=crop" }
       ]
     },
@@ -178,10 +178,10 @@ const Equipes: React.FC = () => {
       titre: "Communication & Partenariats",
       description: "03 membres · marque & relations",
       membres: [
-        { nom: "Tania", role: "Responsable Communication", isLead: true, photo: tania },
-        { nom: "Flora", role: "Communication", photo:flora },
+        { nom: "ESSE GBETCHE Tania", role: "Responsable Communication", isLead: true, photo: tania },
+        { nom: "TOGBONON Flora", role: "Communication", photo:flora },
         // { nom: "Exaucée", role: "Communication", photo: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=800&auto=format&fit=crop" },
-        { nom: "Lexni", role: "Relations & Partenariats", photo: lexni }
+        { nom: "HOUNWANOU Lexni", role: "Relations & Partenariats", photo: lexni }
       ]
     },
     // {

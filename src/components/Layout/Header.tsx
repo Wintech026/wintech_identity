@@ -7,7 +7,7 @@ const navLinks = [
   { label: 'À Propos', path: '/apropos' },
   { label: 'Services', path: '/services' },
   { label: 'Produits', path: '/produits' },
-  { label: 'Équipes',  path: '/equipes' },
+  { label: 'Équipe',  path: '/equipes' },
 ];
 
 const Header: React.FC = () => {
