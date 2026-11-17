@@ -4,6 +4,7 @@ import esther from '../assets/esther.jpeg';
 import obed from '../assets/obed.jpeg';
 import tania from '../assets/tania.jpeg';
 import lexni from '../assets/lexni.jpeg';
+import thibaut from '../assets/thibaut.jpeg';
 // --- Types ---
 interface Membre {
   nom: string;
@@ -168,7 +169,7 @@ const Equipes: React.FC = () => {
       description: "03 membres · produit & ingénierie",
       membres: [
         { nom: "ADIDO Obed", role: "Lead Developer & DevOps", isLead: true, photo: obed },
-        { nom: "PLOMEY Thibaut", role: "Développeur Backend", photo: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800&auto=format&fit=crop" },
+        { nom: "PLOMEY Thibaut", role: "Développeur Backend", photo: thibaut },
         // { nom: "Vincentia", role: "Développeuse Backend", photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop" },
         { nom: "ADEBI Esther", role: "Développeuse Frontend", photo:esther },
         // { nom: "Lydie", role: "Développeuse Frontend", photo: "https://images.unsplash.com/photo-1628891676724-194781703d0a?q=80&w=800&auto=format&fit=crop" }
