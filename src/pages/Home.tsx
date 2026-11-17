@@ -249,7 +249,7 @@ export async function launchApp() {
                 </div>
                 <div className="domaine-card__tag">{tag}</div>
                 <h3>{title}</h3>
-                <p>{desc}</p>
+                <p>{desc}</p> 
                 <Link className="link-arrow" to={path}>
                   En savoir plus
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
