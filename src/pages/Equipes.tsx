@@ -3,6 +3,7 @@ import flora from '../assets/flora.jpeg';
 import esther from '../assets/esther.jpeg';
 import obed from '../assets/obed.jpeg';
 import tania from '../assets/tania.jpeg';
+import lexni from '../assets/lexni.jpeg';
 // --- Types ---
 interface Membre {
   nom: string;
@@ -180,7 +181,7 @@ const Equipes: React.FC = () => {
         { nom: "Tania", role: "Responsable Communication", isLead: true, photo: tania },
         { nom: "Flora", role: "Communication", photo:flora },
         // { nom: "Exaucée", role: "Communication", photo: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=800&auto=format&fit=crop" },
-        { nom: "Lexni", role: "Relations & Partenariats", photo: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop" }
+        { nom: "Lexni", role: "Relations & Partenariats", photo: lexni }
       ]
     },
     // {
